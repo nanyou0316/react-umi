@@ -1,0 +1,19 @@
+.active {
+  color: red;
+}
+.indexBox {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: pink;
+  text-align: center;
+}
+.indexBox ul {
+  display: flex;
+}
+.indexBox ul li {
+  flex: 1;
+}
