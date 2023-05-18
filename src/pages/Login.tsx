@@ -12,7 +12,7 @@ export default function Login() {
         request('/user/login',{
           method:'POST',
           headers:{
-            "Content-Type":"applocation/json"
+            "Content-Type":"application/json"
           },
           body:JSON.stringify({
             username,

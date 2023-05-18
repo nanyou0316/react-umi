@@ -4,6 +4,9 @@ import './global.css'
 import style from './index.css'
 
 export default function IndexLayout(props:any) {
+  if(props.location.pathname==='/city'||props.location.pathname.includes('/detail')){
+    return <>{props.children}</>
+  }
   return (
     <div>
       {props.children}

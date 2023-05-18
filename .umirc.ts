@@ -11,4 +11,13 @@ export default defineConfig({
   // history:{
   //   type:"hash"
   // }
+  proxy:{
+    '/api':{
+      target:'https://i.maoyan.com',
+      changeOrigin:true
+    }
+  },
+  antd:{
+    mobile:false
+  }
 });
