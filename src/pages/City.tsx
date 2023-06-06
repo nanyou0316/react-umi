@@ -52,7 +52,6 @@ function City(props: any) {
         },
       });
     }
-
     props.history.go(-1);
   }
   const indexBarRef = useRef<IndexBarRef>(null);
